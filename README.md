@@ -10,13 +10,18 @@ Block explorer for EveryCash CryptoNote based cryptocurrency.
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
 #### Public Explorer
-If this will be hosted on a public webserver sometimes there are issues with resloving local IP & Apache, to avoid issue use the following change in the config.js & config.php files:
+If this will be hosted on a public webserver sometimes there are issues with resloving local IP & Apache, to avoid issue use the following change using your pubic IP
 
-Use your PUBLIC IP addresss:
-'http://98.223.121.198:18112'; 
+config.js
+```
+var api = 'http://PUBICIPADDRESS:18112';
+```
+In config.phps:
+```
+'api' => 'http://PUBICIPADDRESS:18112',
+```
 
 Credit to Sanjay Saluth for the debugging.
-
 
 ### Forked from: 
 Devs:
