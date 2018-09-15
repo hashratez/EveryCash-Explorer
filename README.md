@@ -11,10 +11,11 @@ Block explorer for EveryCash CryptoNote based cryptocurrency.
 
 #### Public Explorer
 If this will be hosted on a public webserver sometimes there are issues with resloving local IP & Apache, to avoid issue use the following change in the config.js & config.php files:
+
 Use your PUBLIC IP addresss:
 'http://98.223.121.198:18112'; 
 
-Credit to Sanjay K. for the debugging.
+Credit to Sanjay Saluth for the debugging.
 
 
 ### Forked from: 
