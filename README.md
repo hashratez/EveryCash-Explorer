@@ -3,7 +3,7 @@ Block explorer for EveryCash CryptoNote based cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon turtlecoind. It should be accessible from the Internet. Run turtlecoind with open port as follows:
+1) It takes data from daemon EveryCashd. It should be accessible from the Internet. Run EveryCashd with open port as follows:
 ```bash
 ./EveryCashd --enable-cors="*" --enable_blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=18112
 ```
