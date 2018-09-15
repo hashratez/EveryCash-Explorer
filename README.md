@@ -16,7 +16,7 @@ config.js
 ```
 var api = 'http://PUBICIPADDRESS:18112';
 ```
-In config.phps:
+In config.php:
 ```
 'api' => 'http://PUBICIPADDRESS:18112',
 ```
